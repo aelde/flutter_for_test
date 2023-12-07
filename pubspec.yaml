@@ -10,6 +10,8 @@ dpendencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   flutter_launcher_icons: ^0.13.1
+  http: ^1.1.2
+  intl: ^0.19.0
 flutter_icons:
   android: true
   image_path: "image/play.png"
@@ -17,13 +19,18 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  
 flutter:
   assets:
     - assets/ds.jpg
+    - assets/food_img/
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+dependencies:
+  http: ^1.1.2
+  intl: ^0.19.0
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
